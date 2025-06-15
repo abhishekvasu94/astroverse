@@ -7,7 +7,7 @@ category:
 tags:
   - Football
 pubDate: 2025-05-16
-cover: ../../images/One-touch/bruno_fernandes.jpg
+cover: https://storage.googleapis.com/abhishek-storage-bucket/website-images/One-touch/bruno_fernandes.jpg
 coverAlt: AstroVerse-Aliases
 author: Abhishek Vasu
 ---
