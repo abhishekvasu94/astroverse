@@ -1,5 +1,5 @@
 ---
-import { Picture } from "astro:assets";
+import { Picture, Image } from "astro:assets";
 
 interface Props {
   src: string;
@@ -25,7 +25,7 @@ const {
 } = Astro.props;
 ---
 
-<Picture
+<Image
   src={src}
   alt={alt}
   widths={widths}
