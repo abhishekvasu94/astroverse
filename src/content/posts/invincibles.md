@@ -8,7 +8,7 @@ tags:
   - Football
 pubDate: 2025-02-05
 cover: https://storage.googleapis.com/abhishek-storage-bucket/website-images/Invincibles/472af004e67de118de3905e8a646a0e6423510b2.jpg.webp
-coverAlt: AstroVerse-Aliases
+coverAlt: Invincibles
 author: Abhishek Vasu
 ---
 
@@ -18,15 +18,15 @@ There are two teams this century that managed to go the entire league season unb
 
 ## High level stats
 
-![High level stats](https://storage.googleapis.com/abhishek-storage-bucket/website-images/Invincibles/high_level_stats_bold.png)
+![High level stats](../../images/Invincibles/high_level_stats_bold.png)
 
 The high level overview of the two teams shows that Leverkusen was a much more attacking team in their invincibles season, averaging 2.53 goals per game. Meanwhile, Arsenal had a slightly stronger defence, conceding an average of 0.66 goals per game. But are these trends reflected in some of the lower level metrics too? Let's find out
 
 ## How do the teams lineup
 
-![Arsenal pass map](https://storage.googleapis.com/abhishek-storage-bucket/website-images/Invincibles/arsenal_pass_map.png)
+![Arsenal pass map](../../images//Invincibles/arsenal_pass_map.png)
 
-![Leverkusen pass map](https://storage.googleapis.com/abhishek-storage-bucket/website-images/Invincibles/leverkusen_pass_map.png)
+![Leverkusen pass map](../../images/Invincibles/leverkusen_pass_map.png)
 
 In the above two figues, I have chosen 6 games for each team from their respective invincibles season, and plotted the passing networks. These futher emphasize how dominant in attack Leverkusen were. There are games where the average position of the entire Leverkusen team is in the opposition half.
 
@@ -44,11 +44,11 @@ This is one metric in which Arsenal were very comfortable. They were never trail
 
 Unsurprisingly, Thierry Henry was the main man for Arsenal. With 30 goals, he was well clear of Robert Pirès who was in second place with 14 goals. None of the rest of the Arsenal players managed more than 4 goals in the season. What makes Henry's 30 goals more impressive is that he achieved them with an xG of 23.88, thereby significantly overperforming his expected goals for the season. When it comes to Arsenal's assists, they were more spread out between the team. It was a 3 way tie at the top with Thierry Henry, Robert Pirès, and Dennis Bergkamp all sharing 6 assists.
 
-![Arsenal danger pass map](https://storage.googleapis.com/abhishek-storage-bucket/website-images/Invincibles/arsenal_danger_pass_map.png)
+![Arsenal danger pass map](../../images/Invincibles/arsenal_danger_pass_map.png)
 
 Bayer Leverkusen's stats were pretty much the opposite of Arsenal's. The bulk of their scoring was shared between Alejandro Grimaldo (10), Florian Wirtz (11), and Victor Boniface (14). However their assists were dominated by Grimaldo (13), and Wirtz (11). The dangerous passes heatmap further emphasizes this by highlighting the left central space outside the penalty area as the most dangerous zone, a space where both Wirtz and Grimaldo operate.
 
-![Leverkusen danger pass map](https://storage.googleapis.com/abhishek-storage-bucket/website-images/Invincibles/leverkusen_danger_pass_map.png)
+![Leverkusen danger pass map](../../images/Invincibles/leverkusen_danger_pass_map.png)
 
 ## Conclusion
 
