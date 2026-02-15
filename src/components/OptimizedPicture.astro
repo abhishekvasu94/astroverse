@@ -28,13 +28,25 @@ const {
 const isRemote = typeof src === "string";
 ---
 
-<Picture
-  src={src}
-  alt={alt}
-  widths={widths}
-  sizes={sizes}
-  formats={formats}
-  fallbackFormat={fallbackFormat}
-  class={className}
-  inferSize={isRemote}
-/>
+{isRemote ? (
+  <Picture
+    src={src}
+    alt={alt}
+    widths={widths}
+    sizes={sizes}
+    formats={formats}
+    fallbackFormat={fallbackFormat}
+    class={className}
+    inferSize
+  />
+) : (
+  <Picture
+    src={src}
+    alt={alt}
+    widths={widths}
+    sizes={sizes}
+    formats={formats}
+    fallbackFormat={fallbackFormat}
+    class={className}
+  />
+)}
